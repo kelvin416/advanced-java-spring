@@ -4,6 +4,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
+//Spring automatically scans this class looking for beans
 public class IOCDemoConfiguration {
 
     @Bean
